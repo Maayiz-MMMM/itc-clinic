@@ -5,10 +5,12 @@ define('DB_USERNAME','root');
 define('DB_PASSWORD','');
 define('DB_NAME','toothcare');
 
+
 define('BASE_PATH', __DIR__);
 define('CURRENT_DOMAIN', current_domain());
 define('CURRENT_URL',current_url());
 define('SLOT_DURATION', 'PT60M');
+require_once __DIR__.'/helpers/PersistanceManager.php';
 
 
 function current_domain(){

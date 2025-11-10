@@ -18,7 +18,7 @@ require_once __DIR__ . '/../../config.php';
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Login - Sneat Admin Template</title>
+    <title>Login -clinic Admin</title>
 
     <meta name="description" content="" />
 
@@ -62,7 +62,8 @@ require_once __DIR__ . '/../../config.php';
     //   print('<pre>');
     // print($assets);
     // print('<br>');
-    
+
+ 
     ?>
     <!-- Content -->
     <div class="container-xxl">

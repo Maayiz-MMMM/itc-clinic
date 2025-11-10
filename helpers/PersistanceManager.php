@@ -1,6 +1,6 @@
 <?php
-require_once BASE_PATH . '../config.php';
-require_once BASE_PATH . '../helpers/SessionManager.php';
+require_once __DIR__ . '/../config.php';
+require_once __DIR__ .'/SessionManager.php';
 
 
 
@@ -183,9 +183,9 @@ class PersistanceManager
             }
 
             if ($fetchFirstRecOnly)
-                $result = $stmt->fetch(PDO::FETCH_ASSOC);
+             return   $result = $stmt->fetch(PDO::FETCH_ASSOC);
             else
-                $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+              return  $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
             $stmt->closeCursor();
@@ -196,3 +196,5 @@ class PersistanceManager
         }
     }
 }
+
+
