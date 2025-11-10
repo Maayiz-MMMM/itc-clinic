@@ -1,0 +1,56 @@
+
+        /* Custom styles for the Inter font and base background */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            /* Ensure full viewport height for sticky footer */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Container for main content to apply max-width and centering */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            /* Horizontal padding for responsiveness */
+        }
+
+        /* Adjust main content to take available space */
+        main {
+            flex-grow: 1;
+        }
+
+        /* Basic styling for sections to give them a card-like appearance */
+        section {
+            padding: 4rem 0;
+            /* Vertical padding for sections */
+        }
+
+        /* Utility for horizontal rule under titles */
+        .hr-blue {
+            height: 4px;
+            width: 6rem;
+            /* Tailwind w-24 */
+            background-color: #3182ce;
+            /* Tailwind blue-600 */
+            margin: 0 auto 1.5rem;
+            /* Center and add bottom margin */
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            section {
+                padding: 3rem 0;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+        }
+ .lolo{
+    color: red;
+    background-color: blue;
+ }
